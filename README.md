@@ -65,7 +65,7 @@ MyoVoice/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyoVoice.git
+git clone https://github.com/Karthiga2805/MyoVoice.git
 cd MyoVoice
 pip install -r requirements.txt
 ```
