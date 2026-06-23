@@ -28,8 +28,8 @@ This repository covers the full stack: sensor hardware, firmware, data preproces
 MyoVoice/
 ├── hardware/
 │   ├── esp32_firmware/          # Arduino/C++ firmware for the ESP-32 microcontroller
-│   └── sensor_coordination/     # Sensor placement, calibration, and sync logic
-│
+│   ├── sensor_coordination/     # Sensor placement, calibration, and sync logic
+│   └──Sensor Coordination and Data Collection/: Contains the scripts and utilities used to interface with hardware sensors, baseline configuration, and orchestrate real-time data logging
 ├── notebooks/
 │   ├── 01_emg_uka_trial.ipynb   # Initial exploration of the EMG-UKA corpus
 │   ├── 02_random_forest.ipynb   # Baseline Random Forest classifier
@@ -37,15 +37,15 @@ MyoVoice/
 │   ├── 04_myovoice_scratch.ipynb# Architecture experiments from scratch
 │   ├── 05_try_elec.ipynb        # Electrode configuration experiments
 │   └── 06_try_emg.ipynb         # Raw EMG signal analysis
-│
+│── Myovoice_App.zip: An exported archive of the Android Studio project framework, allowing the mobile application interface to be imported, modified, and rebuilt into an APK.
 ├── docs/
 │   ├── research_paper/          # Academic paper and references
 │   ├── project_management.docx  # Project timeline and task breakdown
 │   └── kaggle_notes.docx        # Notes from Kaggle dataset experiments
 │
 ├── data/
-│   └── README.md                # Instructions for obtaining the EMG-UKA corpus
-│
+│   ├── README.md                # Instructions for obtaining the EMG-UKA corpus
+│   └── Holds the raw and processed .csv dataset logs collected from experimental trials involving 5 distinct participants.
 ├── models/                      # Saved model weights (see .gitignore for large files)
 ├── .gitignore
 ├── requirements.txt
@@ -89,6 +89,9 @@ This project uses the **EMG-UKA Trial Corpus** — a publicly available dataset 
 See `data/README.md` for download and setup instructions. Raw data files are excluded from this repository.
 
 ---
+## Workflow Overview
+**Hardware & Data Collection:** Use the scripts located in the Sensor Coordination and Data Collection/ directory to interface with the hardware setup and log data into MyoVoice_Data/.
+**Application Development:** Unzip Myovoice_App.zip and import the extracted folder directly into Android Studio to modify the interface or compile a fresh APK target binary.
 
 ## Results
 
