@@ -117,7 +117,7 @@ See the `hardware/` directory for:
 - [x] EMG signal acquisition and preprocessing pipeline
 - [x] Baseline Random Forest classifier
 - [x] Improved feature engineering (v2)
-- [ ] Real-time inference on ESP-32
+- [x] Real-time inference on ESP-32
 - [ ] Expand vocabulary beyond N words
 - [ ] Text-to-speech voice synthesis integration
 - [ ] User study with laryngectomy patients
@@ -130,8 +130,9 @@ This project was developed as part of the **Electronics Club 2025–26** .
 
 | Name | Role |
 |---|---|
-| [Your Name] | ML & Signal Processing |
-| [Teammate] | Hardware & Firmware |
+| [Akshaiya, Karthiga] | Project Leads |
+| [Sagar, Dinesh] | ML & Signal Processing |
+| [Sabarish, Karnika] | Hardware & Firmware |
 
 
 ---
